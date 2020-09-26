@@ -1,0 +1,5 @@
+hoursWorked=input("Enter number of hours worked:")
+hW=int(hoursWorked) #to convert the string input to integer
+hourlyRate=input("Enter Hourly Rate:")
+hR=float(hourlyRate)
+print("Hours Worked=",hW,",Hourly Rate=",hR,",Pay=",hW*hR)
